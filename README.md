@@ -6,7 +6,7 @@ This project was developed as part of a school project to create a version of th
 
 2. cd [your folder]
 
-3. launch your live server
+3. launch your live server at "localhost:"
 
 4. enter the number of rows / columns then the names of the two players
 
