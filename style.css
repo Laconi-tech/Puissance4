@@ -3,6 +3,7 @@ body {
     text-align: center;
     display: flex;
     flex-direction: column ;
+    background-color: #3d3d3d;
 }
 
 #plateau {
@@ -16,7 +17,7 @@ body {
     height: 70px;
     width: 70px;
     margin: 5px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.719);
     border-radius: 50%;
     border: 5px solid navy;
 
@@ -64,4 +65,8 @@ body {
     margin-left: 25%;
     margin-top: 0%;
     background-color: rgba(0, 0, 0, 0.705);
+}
+
+#title, #winner{
+    color: aliceblue;
 }
