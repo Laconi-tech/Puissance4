@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column ;
+}
+
+#plateau {
+    background-color: blue;
+    border: 10px solid navy;
+    margin: 0 auto;
+    display: flex;
+}
+
+.jeton {
+    height: 70px;
+    width: 70px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 50%;
+    border: 5px solid navy;
+
+    position: relative;
+}
+
+.One-piece {
+    background-color: rgb(255, 0, 0);
+    animation: coulisse 1.5s;
+}
+
+.Two-piece {
+    background-color: yellow;
+    animation: coulisse 1.5s;
+}
+
+@keyframes coulisse {
+    from { top: -450px; }
+    to { top: 0px; }
+} 
+
+#restart{
+    height: 20px;
+    width: 60px;
+    margin-left: 47.5%;
+    margin-top: 1%;
+}
+
+#score{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+#redw{
+    color: red;
+    font-size: 50px;
+    margin-right: 25%;
+    margin-top: 0%;
+    background-color: rgba(0, 0, 0, 0.705);
+}
+
+#yelloww{
+    color: rgb(255, 255, 0);
+    font-size: 50px;
+    margin-left: 25%;
+    margin-top: 0%;
+    background-color: rgba(0, 0, 0, 0.705);
+}
